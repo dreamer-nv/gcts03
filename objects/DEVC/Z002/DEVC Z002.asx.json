@@ -57,7 +57,7 @@
     "CREATED_BY":"I079666",
     "CREATED_ON":"2021-02-16",
     "CHANGED_BY":"I079666",
-    "CHANGED_ON":"2021-02-16",
+    "CHANGED_ON":"2021-02-19",
     "SRV_CHECK":"",
     "CLI_CHECK":"",
     "EXT_ALIAS":"",
@@ -87,7 +87,7 @@
    {
     "DEVCLASS":"Z002",
     "SPRAS":"E",
-    "CTEXT":"test"
+    "CTEXT":"test1"
    }
   ]
  }
