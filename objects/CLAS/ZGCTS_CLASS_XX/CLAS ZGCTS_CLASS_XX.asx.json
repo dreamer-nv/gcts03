@@ -36,7 +36,7 @@
     "AUTHOR":"SAPDX21_00",
     "CREATEDON":"2021-02-20",
     "CHANGEDBY":"",
-    "CHANGEDON":"0000-00-00",
+    "CHANGEDON":"2021-02-20",
     "CHGDANYBY":"",
     "CHGDANYON":"0000-00-00",
     "CLSEMBED":"",
@@ -73,7 +73,7 @@
    {
     "CLSNAME":"ZGCTS_CLASS_XX",
     "LANGU":"E",
-    "DESCRIPT":"GET DATA"
+    "DESCRIPT":"Template class for gCTS hands-on session"
    }
   ]
  },
