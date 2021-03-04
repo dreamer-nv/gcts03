@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "454edc19-b4af-4c82-bc38-60d5a118cf48",
+		"name": "gCTS Deploy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Pull by commit SRC",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0c382055-ae81-47e3-afb7-fd4c314bfe6a",
+						"exec": [
+							"tests[\"status code is 200\"] = responseCode.code === 200;",
+							"",
+							"var jsonData = JSON.parse(responseBody);",
+							"let logValidator = eval(globals.logValidator);",
+							"tests[\"log exists\"] = typeof (jsonData.log) === 'object';",
+							"if (tests[\"log exists\"]) {",
+							"    //logValidator(jsonData.log);   ",
+							"    //tests['addtobuffer found'] = typeof jsonData.log.find( e => e.action === 'ADD_TO_BUFFER') === 'object';",
+							"    //tests['import found'] = typeof jsonData.log.find( e => e.action === 'IMPORT') === 'object';",
+							"}",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{repo_src_uri}}/sap/bc/cts_abapvcs/repository/CTS-gcts-api/pullByCommit?sap-client={{sap_client}}&debug=true",
+					"host": [
+						"{{repo_src_uri}}"
+					],
+					"path": [
+						"sap",
+						"bc",
+						"cts_abapvcs",
+						"repository",
+						"CTS-gcts-api",
+						"pullByCommit"
+					],
+					"query": [
+						{
+							"key": "sap-client",
+							"value": "{{sap_client}}"
+						},
+						{
+							"key": "debug",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pull by commit TAR",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0c382055-ae81-47e3-afb7-fd4c314bfe6a",
+						"exec": [
+							"tests[\"status code is 200\"] = responseCode.code === 200;",
+							"",
+							"var jsonData = JSON.parse(responseBody);",
+							"let logValidator = eval(globals.logValidator);",
+							"tests[\"log exists\"] = typeof (jsonData.log) === 'object';",
+							"if (tests[\"log exists\"]) {",
+							"    //logValidator(jsonData.log);   ",
+							"    //tests['addtobuffer found'] = typeof jsonData.log.find( e => e.action === 'ADD_TO_BUFFER') === 'object';",
+							"    //tests['import found'] = typeof jsonData.log.find( e => e.action === 'IMPORT') === 'object';",
+							"}",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{repo_tar_uri}}/sap/bc/cts_abapvcs/repository/CTS-gcts-api/pullByCommit?sap-client={{sap_client}}&debug=true",
+					"host": [
+						"{{repo_tar_uri}}"
+					],
+					"path": [
+						"sap",
+						"bc",
+						"cts_abapvcs",
+						"repository",
+						"CTS-gcts-api",
+						"pullByCommit"
+					],
+					"query": [
+						{
+							"key": "sap-client",
+							"value": "{{sap_client}}"
+						},
+						{
+							"key": "debug",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "{{userABAPpwd}}",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "{{userABAP}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "3ab6cb86-d5f5-46f2-bcf0-edaecfe5ce61",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "e580f378-52fc-4b0a-83cd-7b61b1c56606",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
