@@ -4,7 +4,7 @@
   "data":
   [
    {
-    "TYPENAME":"ZGCTS_CLASS_XX",
+    "TYPENAME":"Z002_CLASS_XX",
     "STATE":"A",
     "TYPEKIND":"CLAS"
    }
@@ -15,9 +15,9 @@
   "data":
   [
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "CLSTYPE":0,
-    "UUID":"DnKZtCohHuuc7Uo1C1cyHQ==",
+    "UUID":"DnKZtCohHuufsV1qUZD88A==",
     "REMOTE":""
    }
   ]
@@ -27,16 +27,16 @@
   "data":
   [
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "VERSION":1,
     "CATEGORY":0,
     "EXPOSURE":2,
     "STATE":1,
     "RELEASE":0,
-    "AUTHOR":"SAPDX21_00",
-    "CREATEDON":"2021-02-20",
+    "AUTHOR":"I079666",
+    "CREATEDON":"2021-03-05",
     "CHANGEDBY":"",
-    "CHANGEDON":"2021-02-20",
+    "CHANGEDON":"0000-00-00",
     "CHGDANYBY":"",
     "CHGDANYON":"0000-00-00",
     "CLSEMBED":"",
@@ -71,7 +71,7 @@
   "data":
   [
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "LANGU":"E",
     "DESCRIPT":"Template class for gCTS hands-on session"
    }
@@ -82,19 +82,19 @@
   "data":
   [
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "CMPNAME":"GET_OBJECT_LIST",
     "CMPTYPE":1,
     "MTDTYPE":0
    },
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "CMPNAME":"MTT_TADIR_VIEW",
     "CMPTYPE":3,
     "MTDTYPE":0
    },
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "CMPNAME":"SELECT_SOME",
     "CMPTYPE":1,
     "MTDTYPE":0
@@ -106,7 +106,7 @@
   "data":
   [
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "CMPNAME":"GET_OBJECT_LIST",
     "VERSION":1,
     "ALIAS":"",
@@ -117,8 +117,8 @@
     "LOCKED":"",
     "DISPID":0,
     "R3RELEASE":"755",
-    "AUTHOR":"SAPDX21_00",
-    "CREATEDON":"2021-02-20",
+    "AUTHOR":"I079666",
+    "CREATEDON":"2021-03-05",
     "CHANGEDBY":"",
     "CHANGEDON":"0000-00-00",
     "MTDDECLTYP":1,
@@ -163,7 +163,7 @@
     "TYPESRC":""
    },
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "CMPNAME":"MTT_TADIR_VIEW",
     "VERSION":1,
     "ALIAS":"",
@@ -174,10 +174,10 @@
     "LOCKED":"",
     "DISPID":0,
     "R3RELEASE":"755",
-    "AUTHOR":"SAPDX21_00",
-    "CREATEDON":"2021-02-20",
-    "CHANGEDBY":"SAPDX21_00",
-    "CHANGEDON":"2021-02-20",
+    "AUTHOR":"I079666",
+    "CREATEDON":"2021-03-05",
+    "CHANGEDBY":"I079666",
+    "CHANGEDON":"2021-03-05",
     "MTDDECLTYP":0,
     "MTDABSTRCT":"",
     "MTDFINAL":"",
@@ -220,7 +220,7 @@
     "TYPESRC":"mtt_tadir_view TYPE STANDARD TABLE OF Z_TADIR_view"
    },
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "CMPNAME":"SELECT_SOME",
     "VERSION":1,
     "ALIAS":"",
@@ -231,8 +231,8 @@
     "LOCKED":"",
     "DISPID":0,
     "R3RELEASE":"755",
-    "AUTHOR":"SAPDX21_00",
-    "CREATEDON":"2021-02-20",
+    "AUTHOR":"I079666",
+    "CREATEDON":"2021-03-05",
     "CHANGEDBY":"",
     "CHANGEDON":"0000-00-00",
     "MTDDECLTYP":0,
@@ -283,19 +283,19 @@
   "data":
   [
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "CMPNAME":"GET_OBJECT_LIST",
     "LANGU":"E",
     "DESCRIPT":""
    },
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "CMPNAME":"MTT_TADIR_VIEW",
     "LANGU":"E",
     "DESCRIPT":""
    },
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "CMPNAME":"SELECT_SOME",
     "LANGU":"E",
     "DESCRIPT":"Select some for ATC check"
@@ -307,7 +307,7 @@
   "data":
   [
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "CMPNAME":"GET_OBJECT_LIST",
     "SCONAME":"ET_TABLE",
     "CMPTYPE":1,
@@ -315,7 +315,7 @@
     "SCOTYPE":0
    },
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "CMPNAME":"GET_OBJECT_LIST",
     "SCONAME":"IV_DEVCLASS",
     "CMPTYPE":1,
@@ -329,15 +329,15 @@
   "data":
   [
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "CMPNAME":"GET_OBJECT_LIST",
     "SCONAME":"ET_TABLE",
     "VERSION":1,
     "EDITORDER":2,
     "LOCKED":"",
     "DISPID":0,
-    "AUTHOR":"SAPDX21_00",
-    "CREATEDON":"2021-02-20",
+    "AUTHOR":"I079666",
+    "CREATEDON":"2021-03-05",
     "CHANGEDBY":"",
     "CHANGEDON":"0000-00-00",
     "PARDECLTYP":1,
@@ -356,15 +356,15 @@
     "IS_RESUMABLE":""
    },
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "CMPNAME":"GET_OBJECT_LIST",
     "SCONAME":"IV_DEVCLASS",
     "VERSION":1,
     "EDITORDER":1,
     "LOCKED":"",
     "DISPID":0,
-    "AUTHOR":"SAPDX21_00",
-    "CREATEDON":"2021-02-20",
+    "AUTHOR":"I079666",
+    "CREATEDON":"2021-03-05",
     "CHANGEDBY":"",
     "CHANGEDON":"0000-00-00",
     "PARDECLTYP":0,
@@ -389,14 +389,14 @@
   "data":
   [
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "CMPNAME":"GET_OBJECT_LIST",
     "SCONAME":"ET_TABLE",
     "LANGU":"E",
     "DESCRIPT":""
    },
    {
-    "CLSNAME":"ZGCTS_CLASS_XX",
+    "CLSNAME":"Z002_CLASS_XX",
     "CMPNAME":"GET_OBJECT_LIST",
     "SCONAME":"IV_DEVCLASS",
     "LANGU":"E",
@@ -411,12 +411,12 @@
    {
     "PGMID":"R3TR",
     "OBJECT":"CLAS",
-    "OBJ_NAME":"ZGCTS_CLASS_XX",
+    "OBJ_NAME":"Z002_CLASS_XX",
     "KORRNUM":"",
     "SRCSYSTEM":"...",
-    "AUTHOR":"SAPDX21_00",
+    "AUTHOR":"I079666",
     "SRCDEP":"",
-    "DEVCLASS":"ZGCTS_PACKAGE_XX",
+    "DEVCLASS":"Z002",
     "GENFLAG":"",
     "EDTFLAG":"",
     "CPROJECT":" S",
@@ -428,8 +428,8 @@
     "CRELEASE":"",
     "DELFLAG":"",
     "TRANSLTTXT":"",
-    "CREATED_ON":"2021-02-20",
-    "CHECK_DATE":"2021-02-20",
+    "CREATED_ON":"2021-03-05",
+    "CHECK_DATE":"2021-03-05",
     "CHECK_CFG":""
    }
   ]
@@ -439,19 +439,19 @@
   "data":
   [
    {
-    "CLASSNAME":"ZGCTS_CLASS_XX",
+    "CLASSNAME":"Z002_CLASS_XX",
     "METHODINDX":0,
     "METHODNAME":" ",
     "FLAGS":0
    },
    {
-    "CLASSNAME":"ZGCTS_CLASS_XX",
+    "CLASSNAME":"Z002_CLASS_XX",
     "METHODINDX":1,
     "METHODNAME":"GET_OBJECT_LIST",
     "FLAGS":0
    },
    {
-    "CLASSNAME":"ZGCTS_CLASS_XX",
+    "CLASSNAME":"Z002_CLASS_XX",
     "METHODINDX":2,
     "METHODNAME":"SELECT_SOME",
     "FLAGS":0
@@ -463,85 +463,7 @@
   "data":
   [
    {
-    "NAME":"ZGCTS_CLASS_XX================CCAU",
-    "VARCL":"X",
-    "DBAPL":"S",
-    "DBNA":"D$",
-    "SUBC":"I",
-    "APPL":"S",
-    "UNAM":"SAPDX21_00",
-    "RMAND":"100",
-    "FIXPT":"X",
-    "LDBNAME":"D$S",
-    "UCCHECK":"X"
-   },
-   {
-    "NAME":"ZGCTS_CLASS_XX================CCDEF",
-    "VARCL":"X",
-    "DBAPL":"S",
-    "DBNA":"D$",
-    "SUBC":"I",
-    "APPL":"S",
-    "UNAM":"SAPDX21_00",
-    "RMAND":"100",
-    "FIXPT":"X",
-    "LDBNAME":"D$S",
-    "UCCHECK":"X"
-   },
-   {
-    "NAME":"ZGCTS_CLASS_XX================CCIMP",
-    "VARCL":"X",
-    "DBAPL":"S",
-    "DBNA":"D$",
-    "SUBC":"I",
-    "APPL":"S",
-    "UNAM":"SAPDX21_00",
-    "RMAND":"100",
-    "FIXPT":"X",
-    "LDBNAME":"D$S",
-    "UCCHECK":"X"
-   },
-   {
-    "NAME":"ZGCTS_CLASS_XX================CCMAC",
-    "VARCL":"X",
-    "DBAPL":"S",
-    "DBNA":"D$",
-    "SUBC":"I",
-    "APPL":"S",
-    "UNAM":"SAPDX21_00",
-    "RMAND":"100",
-    "FIXPT":"X",
-    "LDBNAME":"D$S",
-    "UCCHECK":"X"
-   },
-   {
-    "NAME":"ZGCTS_CLASS_XX================CI",
-    "VARCL":"X",
-    "DBAPL":"S",
-    "DBNA":"D$",
-    "SUBC":"I",
-    "APPL":"S",
-    "UNAM":"SAPDX21_00",
-    "RMAND":"100",
-    "FIXPT":"X",
-    "LDBNAME":"D$S",
-    "UCCHECK":"X"
-   },
-   {
-    "NAME":"ZGCTS_CLASS_XX================CM001",
-    "VARCL":"X",
-    "DBAPL":"S",
-    "DBNA":"D$",
-    "SUBC":"I",
-    "APPL":"S",
-    "UNAM":"SAPDX21_00",
-    "RMAND":"100",
-    "FIXPT":"X",
-    "LDBNAME":"D$S",
-    "UCCHECK":"X"
-   },
-   {
-    "NAME":"ZGCTS_CLASS_XX================CM002",
+    "NAME":"Z002_CLASS_XX=================CCAU",
     "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
@@ -554,52 +476,130 @@
     "UCCHECK":"X"
    },
    {
-    "NAME":"ZGCTS_CLASS_XX================CO",
+    "NAME":"Z002_CLASS_XX=================CCDEF",
     "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
     "APPL":"S",
-    "UNAM":"SAPDX21_00",
+    "UNAM":"I079666",
     "RMAND":"100",
     "FIXPT":"X",
     "LDBNAME":"D$S",
     "UCCHECK":"X"
    },
    {
-    "NAME":"ZGCTS_CLASS_XX================CP",
+    "NAME":"Z002_CLASS_XX=================CCIMP",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "DBNA":"D$",
+    "SUBC":"I",
+    "APPL":"S",
+    "UNAM":"I079666",
+    "RMAND":"100",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   },
+   {
+    "NAME":"Z002_CLASS_XX=================CCMAC",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "DBNA":"D$",
+    "SUBC":"I",
+    "APPL":"S",
+    "UNAM":"I079666",
+    "RMAND":"100",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   },
+   {
+    "NAME":"Z002_CLASS_XX=================CI",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "DBNA":"D$",
+    "SUBC":"I",
+    "APPL":"S",
+    "UNAM":"I079666",
+    "RMAND":"100",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   },
+   {
+    "NAME":"Z002_CLASS_XX=================CM001",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "DBNA":"D$",
+    "SUBC":"I",
+    "APPL":"S",
+    "UNAM":"I079666",
+    "RMAND":"100",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   },
+   {
+    "NAME":"Z002_CLASS_XX=================CM002",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "DBNA":"D$",
+    "SUBC":"I",
+    "APPL":"S",
+    "UNAM":"I079666",
+    "RMAND":"100",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   },
+   {
+    "NAME":"Z002_CLASS_XX=================CO",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "DBNA":"D$",
+    "SUBC":"I",
+    "APPL":"S",
+    "UNAM":"I079666",
+    "RMAND":"100",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   },
+   {
+    "NAME":"Z002_CLASS_XX=================CP",
     "EDTX":"X",
     "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"K",
     "APPL":"S",
-    "UNAM":"SAPDX21_00",
+    "UNAM":"I079666",
     "RMAND":"100",
     "FIXPT":"X",
     "LDBNAME":"D$S",
     "UCCHECK":"X"
    },
    {
-    "NAME":"ZGCTS_CLASS_XX================CT",
+    "NAME":"Z002_CLASS_XX=================CT",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
     "APPL":"S",
-    "UNAM":"SAPDX21_00",
+    "UNAM":"I079666",
     "RMAND":"100",
     "FIXPT":"X",
     "LDBNAME":"D$S",
     "UCCHECK":"X"
    },
    {
-    "NAME":"ZGCTS_CLASS_XX================CU",
+    "NAME":"Z002_CLASS_XX=================CU",
     "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
     "APPL":"S",
-    "UNAM":"SAPDX21_00",
+    "UNAM":"I079666",
     "RMAND":"100",
     "FIXPT":"X",
     "LDBNAME":"D$S",
