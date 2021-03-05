@@ -1,6 +1,4 @@
 atcobjects:
   package:
-    - name: "TestPackage"
-      includesubpackage: false
-    - name: "TestPackage2"
+    - name: "Z002"
       includesubpackage: true
