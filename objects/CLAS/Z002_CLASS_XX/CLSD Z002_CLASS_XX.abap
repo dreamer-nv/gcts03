@@ -18,9 +18,6 @@ include Z002_CLASS_XX=================ccmac.
 *"* local class implementation
 include Z002_CLASS_XX=================ccimp.
 
-*"* test class
-include Z002_CLASS_XX=================ccau.
-
 class Z002_CLASS_XX implementation.
 *"* method's implementations
   include methods.

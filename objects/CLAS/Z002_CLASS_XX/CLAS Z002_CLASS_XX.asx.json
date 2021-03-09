@@ -36,7 +36,7 @@
     "AUTHOR":"I079666",
     "CREATEDON":"2021-03-05",
     "CHANGEDBY":"",
-    "CHANGEDON":"0000-00-00",
+    "CHANGEDON":"2021-03-09",
     "CHGDANYBY":"",
     "CHGDANYON":"0000-00-00",
     "CLSEMBED":"",
@@ -59,7 +59,7 @@
     "MSG_ID":"",
     "CLSPROXY":"",
     "CLSSHAREDMEMORY":"",
-    "WITH_UNIT_TESTS":"X",
+    "WITH_UNIT_TESTS":"",
     "DURATION_TYPE":"0",
     "RISK_LEVEL":"0",
     "WITHIN_PACKAGE":""
@@ -462,19 +462,6 @@
   "table":"TRDIR",
   "data":
   [
-   {
-    "NAME":"Z002_CLASS_XX=================CCAU",
-    "VARCL":"X",
-    "DBAPL":"S",
-    "DBNA":"D$",
-    "SUBC":"I",
-    "APPL":"S",
-    "UNAM":"I079666",
-    "RMAND":"100",
-    "FIXPT":"X",
-    "LDBNAME":"D$S",
-    "UCCHECK":"X"
-   },
    {
     "NAME":"Z002_CLASS_XX=================CCDEF",
     "VARCL":"X",
