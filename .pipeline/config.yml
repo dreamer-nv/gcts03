@@ -1,5 +1,5 @@
 general:
-  repository: 'dreamer-nv-gcts03'
+  host: 'http://54.227.214.122:8000'
   client: '100'
   abapCredentialsId: 'gCTS_target'
-  host: 'http://54.227.214.122:8000'
+  repository: 'dreamer-nv-gcts03'
