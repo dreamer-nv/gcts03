@@ -1,3 +1,5 @@
+general:
+  verbose: true
 steps:
   gctsDeploy:
     host: 'http://54.227.214.122:8000'
@@ -9,7 +11,6 @@ steps:
     client: '100'
     abapCredentialsId: 'gCTS_target'
     repository: 'dreamer-nv-gcts03'
-    verbose: 'true'
   gctsRollback:
     host: 'http://54.227.214.122:8000'
     client: '100'
