@@ -1,6 +1,8 @@
 general:
   verbose: true
 steps:
+  setupCommonPipelineEnvironment:
+    collectTelemetryData: false
   gctsDeploy:
     host: 'http://54.227.214.122:8000'
     client: '100'
