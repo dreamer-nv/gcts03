@@ -1,11 +1,5 @@
-steps:
-  gctsCloneRepository:
-    host: 'http://54.146.187.28:8000'
-    client: '100'
-    abapCredentialsId: 'gCTS_source'
-    repository: 'dreamer-nv-gcts03'
-  gctsDeploy:
-    host: 'http://54.227.214.122:8000'
-    client: '100'
-    abapCredentialsId: 'gCTS_target'
-    repository: 'dreamer-nv-gcts03'
+general:
+  repository: 'dreamer-nv-gcts03'
+  client: '100'
+  abapCredentialsId: 'gCTS_target'
+  host: 'http://54.227.214.122:8000'
