@@ -9,18 +9,21 @@ pipeline {
                 setupCommonPipelineEnvironment script: this
             } //steps
         } //stage
-        stage ('Deploy to Test') {
+        stage ('Deploy Commit') {
             steps {
                 gctsDeploy script: this
             } //steps
         } //stage
-        stage ('AUnit') {
+        stage ('Run Unit Tests') {
             steps {
-                script {
-                    gctsExecuteABAPUnitTests script: this
-                } //script
+                gctsExecuteABAPUnitTests script: this
             } //steps
-        } //stage        
+        } //stage     
+        stage ('Rollback Commit') {
+            steps {
+                gctsRollback script: this
+            } //steps
+        } //stage
     } //stages
 }//pipeline
 abapEnvironmentPipeline script: this
