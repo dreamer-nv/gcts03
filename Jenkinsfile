@@ -26,4 +26,3 @@ pipeline {
         } //stage
     } //stages
 }//pipeline
-abapEnvironmentPipeline script: this
